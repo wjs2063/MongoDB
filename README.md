@@ -13,6 +13,8 @@ java script 문법 지원
 ````
 brew services start mongodb-community@6.0
 
+mongosh
+
 movie = {
 "title": "Star Wars: Episode IV -A New Hope",
 "director":"George Lucas","year":1997
