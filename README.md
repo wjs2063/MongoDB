@@ -9,6 +9,8 @@ Mongo DB
 
 
 ## START 
+
+CRUD !! 
 java script 문법 지원
 ````
 brew services start mongodb-community@6.0
