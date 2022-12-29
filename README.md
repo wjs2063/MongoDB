@@ -32,4 +32,10 @@ db.movies.findOne()
 updateOne
 db.movies.updateOne( 찾고자하는 기준 , 바꾸고자하는 값 )
 db.movies.updateOne({"title": "Star Wars: Episode IV -A New Hope"}, {$set:{revies :[]}} )
+
+
+삭제
+
+db.movies.deleteOne({"title": "Star Wars: Episode IV -A New Hope"})
+
 ````
