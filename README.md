@@ -13,11 +13,23 @@ java script 문법 지원
 ````
 brew services start mongodb-community@6.0
 
+시작
 mongosh
 
+use video
+
+생성
 movie = {
 "title": "Star Wars: Episode IV -A New Hope",
 "director":"George Lucas","year":1997
 }
 
+읽기 
+db.movies.findOne()
+
+
+갱신
+updateOne
+db.movies.updateOne( 찾고자하는 기준 , 바꾸고자하는 값 )
+db.movies.updateOne({"title": "Star Wars: Episode IV -A New Hope"}, {$set:{revies :[]}} )
 ````
