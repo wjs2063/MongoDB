@@ -14,4 +14,11 @@ cd Python-3.9.16/
 
 make
 make install
+
+which python3.9
+
+vim .bashrc
+alias python3="/usr/local/bin/python3.9"
+source .bashrc
+
 ```
