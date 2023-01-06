@@ -1,5 +1,5 @@
 fast api docs :  https://fastapi.tiangolo.com/
-
+https://www.mongodb.com/developer/languages/python/python-quickstart-fastapi/
 
 
 
