@@ -1,7 +1,9 @@
 1. python-3.9.16 설치
 2. fast api 설치
 3. vim setting
-4. 
+4. pip3 install
+
+
 yum  y install wget
 yum -y install gcc
 
